@@ -5,10 +5,12 @@ def line(deli_line)
     puts "The line is currently empty."
   elsif deli_line.length > 0
     position_number = 1
+    positions = ""
     deli_line.each do |name|
-    puts "The line is currently: #{position_number}. #{name}"
+    positions << "The line is currently: #{position_number}. #{name}"
     position_number += 1
   end
+    puts positions
   end
 end
 
