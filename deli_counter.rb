@@ -9,6 +9,7 @@ def line(deli_line)
     puts "The line is currently: #{position_number}. #{name}"
     position_number += 1
   end
+  end
 end
 
 line(katz_deli)
