@@ -21,8 +21,8 @@ end
 
 def now_serving(current_line)
   if current_line.length > 0
-    current_line.shift
-    elsif current_line.length < 0
-      puts "There is nobody waiting to be served!"
+    puts current_line.shift
+      elsif current_line.length < 0
+        puts "There is nobody waiting to be served!"
     end
 end
