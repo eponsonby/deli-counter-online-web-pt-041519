@@ -1,7 +1,9 @@
-katz_deli = []
+katz_deli = ["Erin", "Nick", "Kristin"]
 
-def line(name)
-  if katz_deli.length == 0
+def line(deli_line)
+  if deli_line.length == 0
     puts "The line is currently empty."
   end
 end
+
+line(katz_deli)
