@@ -14,4 +14,8 @@ def line(deli_line)
   end
 end
 
-line(katz_deli)
+def take_a_number(current_line, name_string)
+  puts "#{name_string} you are #{current_line.length + 1} in line"
+end
+
+take_a_number(katz_deli, "Mom")
