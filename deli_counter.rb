@@ -16,7 +16,7 @@ end
 
 def take_a_number(current_line, name_string)
   current_line.push(name_string)
-  puts "Welcome, #{name_string}. You are number #{current_line.length + 1} in line."
+  puts "Welcome, #{name_string}. You are number #{current_line.length} in line."
 end
 
 take_a_number(katz_deli, "Mom")
