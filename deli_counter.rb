@@ -7,7 +7,7 @@ def line(deli_line)
     position_number = 1
     positions = "The line is currently: "
     deli_line.each do |name|
-    positions << "#{position_number}. #{name}"
+    positions << "#{position_number}. #{name} "
     position_number += 1
   end
     puts positions
